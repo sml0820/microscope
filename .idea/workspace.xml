@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95fa89ef-2b72-4c13-9281-ef7a13dbcbd1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/publications.js" afterPath="$PROJECT_DIR$/server/publications.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/router.js" afterPath="$PROJECT_DIR$/lib/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections/comments.js" afterPath="$PROJECT_DIR$/collections/comments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/fixtures.js" afterPath="$PROJECT_DIR$/server/fixtures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/posts/post_item.js" afterPath="$PROJECT_DIR$/client/views/posts/post_item.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections/posts.js" afterPath="$PROJECT_DIR$/collections/posts.js" />
     </list>
     <ignored path="microscope.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="comment_submit.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/comments/comment_submit.js">
+      <file leaf-file-name="comments.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collections/comments.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_item.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/views/posts/post_item.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21565495" vertical-offset="0" max-vertical-offset="626">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -46,11 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="posts.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collections/posts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="765">
+              <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19169329" vertical-offset="0" max-vertical-offset="630">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -83,30 +105,30 @@
         <option value="$PROJECT_DIR$/client/views/posts/post_edit.html" />
         <option value="$PROJECT_DIR$/client/views/posts/post_edit.js" />
         <option value="$PROJECT_DIR$/lib/permissions.js" />
-        <option value="$PROJECT_DIR$/collections/posts.js" />
         <option value="$PROJECT_DIR$/client/views/application/layout.html" />
         <option value="$PROJECT_DIR$/client/views/posts/post_submit.js" />
         <option value="$PROJECT_DIR$/client/helpers/errors.js" />
         <option value="$PROJECT_DIR$/client/views/includes/errors.html" />
         <option value="$PROJECT_DIR$/client/views/includes/errors.js" />
-        <option value="$PROJECT_DIR$/server/fixtures.js" />
         <option value="$PROJECT_DIR$/client/views/posts/post_page.js" />
         <option value="$PROJECT_DIR$/client/views/comments/comment.html" />
         <option value="$PROJECT_DIR$/client/views/comments/comment.js" />
         <option value="$PROJECT_DIR$/client/views/posts/post_item.html" />
-        <option value="$PROJECT_DIR$/client/views/posts/post_item.js" />
         <option value="$PROJECT_DIR$/client/views/posts/post_page.html" />
         <option value="$PROJECT_DIR$/client/views/posts/comment_submit.html" />
         <option value="$PROJECT_DIR$/client/views/comments/comment_submit.js" />
-        <option value="$PROJECT_DIR$/collections/comments.js" />
         <option value="$PROJECT_DIR$/lib/router.js" />
         <option value="$PROJECT_DIR$/server/publications.js" />
+        <option value="$PROJECT_DIR$/server/fixtures.js" />
+        <option value="$PROJECT_DIR$/collections/posts.js" />
+        <option value="$PROJECT_DIR$/collections/comments.js" />
+        <option value="$PROJECT_DIR$/client/views/posts/post_item.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="570" />
-    <option name="y" value="67" />
+    <option name="x" value="503" />
+    <option name="y" value="22" />
     <option name="width" value="1260" />
     <option name="height" value="723" />
   </component>
@@ -405,7 +427,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="570" y="67" width="1260" height="723" extended-state="0" />
+    <frame x="503" y="22" width="1260" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -587,29 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collections/posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19138756" vertical-offset="0" max-vertical-offset="750">
-          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/fixtures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11980831" vertical-offset="0" max-vertical-offset="765">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/posts/post_item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29850745" vertical-offset="0" max-vertical-offset="603">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/views/posts/post_edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14950167" vertical-offset="0" max-vertical-offset="602">
@@ -642,14 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/comments/comment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/views/posts/post_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29900333" vertical-offset="0" max-vertical-offset="602">
@@ -662,14 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12458472" vertical-offset="0" max-vertical-offset="602">
           <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/comments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35942492" vertical-offset="0" max-vertical-offset="626">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -692,8 +675,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19169329" vertical-offset="0" max-vertical-offset="630">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/fixtures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="795">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/comments/comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="765">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/comments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/posts/post_item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21565495" vertical-offset="0" max-vertical-offset="626">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
