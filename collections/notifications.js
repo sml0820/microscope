@@ -4,7 +4,7 @@ Notifications.allow({
     update: ownsDocument
 });
 
-createCommentNotification = function(comment)
+createCommentNotification = function(comment) {
     var post = Posts.findOne(comment.postId);
     if (comment.userId !== post.userId) {
         Notifications.insert({
@@ -15,3 +15,4 @@ createCommentNotification = function(comment)
             read: false
         });
     }
+};
